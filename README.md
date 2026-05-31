@@ -103,7 +103,6 @@ Enter method; outcome = P_High (Practice Category = High vs Low/Moderate)
 
 > **Privacy note:** Raw data is excluded from version control. The cleaned file retains no
 individual identifiers; participant IDs are sequential integers assigned after random sampling.
-
 > **Sampling note:** The raw dataset contains all collected responses. During the cleaning process, `cleaning.py` draws
 a sample of **n = 184** using `pandas.DataFrame.sample()` with `random_state=42` to match the study's calculated sample
 size. The fixed seed ensures reproducibility and will produce the same sample on every run unless the seed is changed.
